@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Transition Properties</title>
+	<style type="text/css">
+		.s
+		{
+			width: 200px;
+			height: 200px;
+			background-color: palevioletred;
+			margin: 40%;
+			transition-duration: 2.5s;
+		}
+		.s:hover
+		{
+/*			transform: translate(100px);*/
+/*            transform: translateX(300px);*/
+/*             transform: translateY(300px);*/
+/*		     transform: translate(300px,300px);*/
+/*             transform: skew(30deg,30deg);*/
+              transform: skewX(360deg);
+              transform: skewY(360deg);
+		}
+	</style>
+
+</head>
+<body>
+	<div class="s"></div>
+
+</body>
+</html>
